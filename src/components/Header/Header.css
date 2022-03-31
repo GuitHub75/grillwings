@@ -21,7 +21,11 @@
 .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
     z-index: 1;
 }
-
+.navbar{
+    position: fixed!important;
+    z-index: 5;
+    width: 100%;
+}
 
 .mancha {
     width: 100%;
@@ -40,7 +44,21 @@
     font-weight: 900;
     bottom: -35%;
     font-size: 25px;
+    z-index: 1;
 }
 .btn-grill:hover{
     color: white;
+}
+
+@media (min-width:200px) and (max-width:600px){
+    .mancha{
+        display: none;
+    }
+    .btn-grill{
+        top: 0%;
+        bottom: auto;
+    }
+    .navbar {
+        padding-top: 2rem!important; 
+    }
 }

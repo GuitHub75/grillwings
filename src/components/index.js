@@ -1,13 +1,14 @@
 
 import  React from "react"
-import Header from "./header/Header.js";
+import Header from "./Header/Header"
 import PageIndex from "./PageIndex/PageIndex.js";
+import Terminos from "./Terminos/Terminos.js";
 
 export default function Components(){
     return(
         <div>
-        <Header></Header>
-        <PageIndex></PageIndex>
+        <Header/>
+        <PageIndex/>
         </div>
     );
 }

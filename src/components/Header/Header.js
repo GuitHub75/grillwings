@@ -1,20 +1,21 @@
 import React from "react";
 import mancha from "../../img/mancha1.png"
+
 import './Header.css'
 export default function Header() {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-light ">
-        <img className="mancha" src={mancha} />
-        <a class="btn-grill" href="#">
+      <nav className="navbar navbar-expand-lg navbar-light " >
+        <img className="mancha" src="https://firebasestorage.googleapis.com/v0/b/grill-wings.appspot.com/o/img%2Fmancha1.png?alt=media&token=f066b10e-8ace-47e2-8091-5475d1707e2f" />
+        <a className="btn-grill" href="#">
           Grill Wings
         </a>
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#">
             
           </a>
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarNav"
@@ -22,27 +23,27 @@ export default function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+          <div className="collapse navbar-collapse" id="navbarNav">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <a className="nav-link  animate__animated animate__bounce" aria-current="page" href="#">
                   Menú
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link animate__animated animate__bounce" href="#">
                   Nosotros
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
+              <li className="nav-item">
+                <a className="nav-link animate__animated animate__bounce" href="#">
                   Contactanos
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Delivery</a>
+              <li className="nav-item">
+                <a className="nav-link disabled animate__animated animate__bounce">Delivery</a>
               </li>
             </ul>
           </div>
